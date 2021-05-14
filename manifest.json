@@ -1,0 +1,12 @@
+{
+    "name": "KaisuKomokuCheck",
+    "version": "1.1.0",
+    "manifest_version": 2,
+    "description": "回数項目入力チェック",
+    "content_scripts": [{
+        "matches": ["https://chronus-ext.tis.co.jp/Lysithea/JSP_Files/menu/*"],
+        "js": [
+            "content.js"
+        ]
+    }]
+}
